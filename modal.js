@@ -18,7 +18,7 @@ function createModal() {
     contentContainer.className = "content-container";
 
     var image = document.createElement("img");
-    image.src = "images/mj.jpg";  //AGREGAR LA IMAGEN QUE SE QUIERA
+    image.src = "aca_va_tu_imagen.jpg";  //AGREGAR LA IMAGEN QUE SE QUIERA
     image.className = "modal-image";
 
     var textContainer = document.createElement("div");
@@ -49,7 +49,6 @@ function createModal() {
         }, 300);
     });
 
-    // Generar estilos CSS dinámicamente
     var style = document.createElement("style");
     style.innerHTML = `
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
@@ -103,7 +102,7 @@ function createModal() {
         }
         
         .text-container {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Inter', sans-serif; 
             padding-left: 20px;
             width: 65%;
         }
